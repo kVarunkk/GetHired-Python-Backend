@@ -1,0 +1,8 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+upstash-redis>=1.0.0
+websockets>=11.0.0
+myvoiceai
+# myvoiceai  # Note: Add your local/private 'myvoiceai' package here if it's not installed in your global environment (e.g., -e ./myvoiceai)
