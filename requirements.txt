@@ -5,5 +5,5 @@ python-dotenv>=1.0.0
 upstash-redis>=1.0.0
 websockets>=11.0.0
 myvoiceai >=0.0.8
-myvoiceai[observability] >== 0.0.8
+myvoiceai[observability] >= 0.0.8
 gunicorn
