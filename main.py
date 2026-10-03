@@ -134,6 +134,7 @@ async def ws_interview_handler(websocket: WebSocket):
             stable_interim_secs=1.5,
             stable_interim_secs_no_punct=3.5,
             inactivity_timeout_seconds=10,
+            max_session_seconds=30,
             tool_registry=my_registry,
             llm_provider_api_key=GEMINI_API_KEY,
             deepgram_api_key=DEEPGRAM_API_KEY,
