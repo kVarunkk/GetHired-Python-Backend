@@ -31,6 +31,10 @@ redis = Redis.from_env()
 
 app = FastAPI()
 
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 class InterviewConfig(BaseModel):
     candidate_name: str = Field(max_length=100)
     profile: str = Field(max_length=8000)
