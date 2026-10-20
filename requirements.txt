@@ -4,6 +4,7 @@ pydantic>=2.0.0
 python-dotenv>=1.0.0
 upstash-redis>=1.0.0
 websockets>=11.0.0
-myvoiceai >=0.0.8
-myvoiceai[observability] >= 0.0.8
+myvoiceai >=0.0.11
+myvoiceai[observability] >= 0.0.11
 gunicorn
+httpx>=0.24

@@ -3,3 +3,7 @@ __pycache__
 .env
 fastapi_app.py
 static
+.pytest_cache/
+.claude
+.venv
+venv*/
